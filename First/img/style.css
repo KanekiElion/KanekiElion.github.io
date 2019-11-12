@@ -1,0 +1,28 @@
+/*ClearFix CSS stylesheet*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{text-decoration: none; color: #9932CC;}
+li{text-decoration: none; list-style: none;}
+
+body 
+{
+  line-height: 1.6;
+  font-size: 14px;
+  white-space: normal;
+  text-indent: 15px;
+  word-spacing: normal;
+  direction: ltr;
+}
+
+#first{
+    background-image: url(bg.jpg);
+    height: 100vh;
+    color: #fff;
+}
+
+.first_col{
+    display: flex;
+}
