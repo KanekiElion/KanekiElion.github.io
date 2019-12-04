@@ -1,0 +1,19 @@
+/* down */
+
+footer{
+  padding: 2px 10px 2px 10px;
+
+  background-color: rgba(75, 162, 147, 1);
+  border-radius: 50px;
+
+  align-self: flex-end;
+  grid-area: down;
+}
+
+footer>a{
+  color: black;
+}
+
+footer>a:hover{
+  color: white;
+}

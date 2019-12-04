@@ -1,0 +1,42 @@
+body{
+  margin: 0;
+  padding: 0;
+  color: White;
+
+  font-size: 20px;
+
+  background-color: black;
+}
+
+li{
+  text-decoration: none;
+  text-transform: none;
+}
+
+a{
+  text-decoration: none;
+  text-transform: none;
+  color: white;
+}
+
+img, label, table{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+section{
+  height: 100vh;
+}
+
+#screen__one {
+  background-image: url(../img/bgi/bgi_3.jpg);
+  background-position: center;
+  margin: 0 0 10px 0;
+}
+
+#screen__two {
+  background-image: url(../img/bgi/bgi_2.jpg);
+  background-position: center;
+  margin: 0 0 10px 0;
+}
