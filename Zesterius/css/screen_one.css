@@ -24,8 +24,10 @@
 
   border-radius: 50px;
 
-  height: 46px;
-  width: 180px;
+  min-height: 46px;
+  min-width: 180px;
+
+  padding: 5px;
 
   text-align: center;
 
@@ -37,11 +39,20 @@
   grid-area: ms;
 }
 
+#screen__one>article>.info{
+  height: 95%;
+  width: 95%;
+
+  text-align: center;
+
+  grid-area: info;
+}
+
 @media screen and (min-width: 480px){
   #screen__one>article{
     grid-template-areas:
       "logo logo . ms ms"
-      ". . . . ."
+      ". info info info ."
       ". . down . ."
   }
 }
@@ -52,7 +63,7 @@
     grid-template-areas:
       ". logo logo logo ."
       ". . ms . ."
-      ". . . . ."
+      ". info info info ."
       ". . down . ."
   }
   #screen__one>article>.mainsite{

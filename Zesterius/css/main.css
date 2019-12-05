@@ -3,7 +3,7 @@ body{
   padding: 0;
   color: White;
 
-  font-size: 20px;
+  font-size: 16px;
 
   background-color: black;
 }
@@ -20,6 +20,7 @@ a{
 }
 
 img, label, table{
+  height: 100%;
   width: 100%;
   height: auto;
   display: block;
@@ -40,4 +41,16 @@ section{
   background-image: url(../img/bgi/bgi_4.jpg);
   background-position: center;
   margin: 0 0 10px 0;
+}
+
+#screen__three {
+  background-image: url(../img/bgi/bgi_6.jpg);
+  background-position: center;
+  margin: 0 0 10px 0;
+}
+
+@media screen and (max-width: 480px){
+  body{
+    font-size: 14px;
+  }
 }

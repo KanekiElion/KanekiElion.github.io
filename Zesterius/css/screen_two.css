@@ -1,0 +1,74 @@
+#screen__two>article{
+  height: 95%;
+  width: 80%;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: 3fr 2fr 3fr;
+  grid-template-rows: 2fr 7fr 1fr;
+
+  grid-row-gap: 5px;
+
+  justify-items: center;
+
+  grid-template-areas:
+    ". head ."
+    "res . friend"
+    ". down ."
+
+}
+
+#screen__two>article>.header{
+  height: 20px;
+  width: 240px;
+  border: 3px solid rgba(75, 162, 147, 1);
+  background-color: rgba(75, 162, 147, 0.7);
+
+  text-align: center;
+  align-self: center;
+  font-size: 18px;
+  color: black;
+
+  border-radius: 50px;
+
+  grid-area: head;
+}
+
+#screen__two>article>.resours{
+  height: 100%;
+  width: 100%;
+  border: 3px solid rgba(75, 162, 147, 1);
+  background-color: rgba(75, 162, 147, 0.7);
+
+  text-align: center;
+  align-self: flex-start;
+  grid-area: res;
+  border-radius: 50px;
+}
+
+#screen__two>article>.resours>img{
+  margin: auto;
+  width: 80%;
+
+  border-radius: 20px;
+}
+
+
+#screen__two>article>.friend{
+  height: 100%;
+  width: 100%;
+  border: 3px solid rgba(75, 162, 147, 1);
+  background-color: rgba(75, 162, 147, 0.7);
+
+  text-align: center;
+  align-self: flex-start;
+  grid-area: friend;
+  border-radius: 50px;
+}
+
+#screen__two>article>.friend>img{
+  margin: auto;
+  width: 80%;
+
+  border-radius: 20px;
+}
