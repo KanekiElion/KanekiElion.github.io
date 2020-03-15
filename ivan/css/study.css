@@ -1,0 +1,114 @@
+#screen_study>article>h2{
+  margin-bottom: 80px;
+}
+
+.studycase{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  margin-top: 80px;
+  margin-bottom: 120px;
+
+  text-align: center;
+}
+
+.studycase>div{
+  width: 23%;
+  height: 100px;
+
+  border: 0;
+  border-radius: 100px;
+  box-shadow: 1px 2px 2px grey;
+}
+
+.studycase>div>img{
+  height: auto;
+  width: 23%;
+
+  position: relative;
+  bottom: 20px;
+}
+
+.studycase>div>div{
+  position: relative;
+  bottom: 10px;
+}
+
+.reg{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.stats{
+  font-size: 14px;
+  width: 40%;
+}
+
+.sell{
+  font-size: 36px;
+  line-height: 36px;
+
+  font-weight: bold;
+}
+
+.cnt{
+  margin: 25% 0 25% 0;
+}
+
+.form{
+  height:460px;
+  width: 36%;
+
+  box-shadow: 0 0 3px grey;
+  border-radius: 10px;
+}
+
+.form>article>p{
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.form>article>input{
+  margin-bottom: 25px;
+  height: auto;
+  width: 100%;
+  font-size: 12px;
+  padding: 5px 0;
+  border: 0;
+  border-bottom: 1px solid grey;
+}
+
+.form>article>div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form>article>div>div{
+  width: 90%;
+}
+
+.form>article>div>div>p{
+  font-size: 8px;
+  line-height: 10px;
+}
+
+.form>article>button{
+  margin-left: 20%;
+  margin-top: 15%;
+
+  padding: 14px 40px;
+
+  border: 0;
+  border-radius: 50px;
+
+  box-shadow: 0 0 10px #3d82f0;
+
+  background-color: #3d82f0;
+
+  color: white;
+  font-size: 20px
+}

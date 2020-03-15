@@ -1,0 +1,78 @@
+.foot{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+.logo_copy{
+  font-size: 2.1vh;
+  line-height: 2.1vh;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Museo Sans Cyrl 500';
+}
+
+.communication{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  position: relative;
+  left: 10%;
+}
+
+.communication>div{
+  height: auto;
+  width: 100px;
+}
+
+.footer_com{
+  height: 9.2vh;
+  width: 9.2vh;
+
+  position: relative;
+  left: 19%;
+
+  background: white;
+  border: 1px black solid;
+  border-radius: 50px
+}
+
+.footer_com:hover{
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);;
+}
+
+.communication>div>.footer_com>img{
+  height: auto;
+  width: 50%;
+  margin: auto;
+
+  position: relative;
+  top: 50%;
+  right: 3%;
+}
+
+.communication>div>p{
+  text-align: center;
+}
+
+.politics{
+  width: 25%;
+  text-align: right;
+}
+
+.politics>a{
+  color: blue;
+}
+
+.politics>a:hover{
+  text-decoration: underline;
+}
+
+.copyright{
+  margin-top: 8vh;
+  text-align: center;
+}

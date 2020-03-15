@@ -1,0 +1,29 @@
+#time>article>div>h2>a{
+  color: blue;
+}
+
+.all{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.all>img{
+  width: 35%
+}
+
+.line{
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: center;
+
+  margin: 15px 0;
+}
+
+.line>img{
+  height: 54px;
+  width: 50px;
+
+  margin-right: 20px;
+}

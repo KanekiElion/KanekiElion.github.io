@@ -1,0 +1,60 @@
+#screen_teecher>article>h2{
+  margin-bottom: 80px;
+}
+
+.teecher{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.teecher>div{
+  width: 50%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.teecher>div>img{
+  height: auto;
+  width: 180px;
+
+  border-radius: 25px;
+}
+
+.teecher>div>div{
+  margin-left: 30px;
+}
+
+.teecher>div>div>p{
+  position: relative;
+  top: 20%;
+  line-height: 24px;
+}
+
+.teeche{
+  font-weight: bolder;
+}
+
+.obuch{
+  margin-top: 120px;
+  margin-bottom: 80px;
+}
+
+.job{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.job>div{
+  width: 40%;
+  margin-bottom: 40px;
+  margin-left: 8%;
+}
+
+.name_l{
+  font-weight: bolder;
+  margin-bottom: 20px;
+}

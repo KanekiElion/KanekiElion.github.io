@@ -1,0 +1,45 @@
+#screen_why>article>h2{
+  margin-bottom: 80px;
+}
+
+.case{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  text-align: center;
+
+  margin-bottom: 80px;
+}
+
+.case>div>img{
+  height: auto;
+  width: 60px;
+}
+
+.chop-chop{
+  text-align: center;
+  color: grey;
+}
+
+.chop-chop>img{
+  display: block;
+  margin:auto;
+  margin-top: 40px;
+}
+
+.chop-chop>button{
+  margin-top: 70px;
+
+  padding: 14px 40px;
+
+  border: 0;
+  border-radius: 50px;
+
+  box-shadow: 0 0 10px #3d82f0;
+
+  background-color: #3d82f0;
+
+  color: white;
+  font-size: 20px
+}

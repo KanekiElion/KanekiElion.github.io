@@ -1,0 +1,87 @@
+.top{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.logo{
+  font-size: 20px;
+  line-height: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Museo Sans Cyrl 500';
+}
+
+.top>.menu>ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.menu>ul>li{
+  margin-left: 50px;
+  text-decoration: none;
+}
+
+.bottom{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  align-items: flex-end;
+
+  margin-top: 6%;
+}
+
+.bottom>img{
+  height: auto;
+  width: 53%;
+}
+
+.info{
+  width: 38%;
+
+}
+
+h1{
+    font-family: 'Museo Sans Cyrl 700';
+    font-size: 60px;
+    line-height: 50px;
+    margin: 0;
+}
+
+.info>p{
+  margin-top: 5%;
+  line-height: 30px;
+  color: grey;
+}
+
+.func{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  margin-top: 10%;
+}
+
+.podrobn{
+
+  padding: 14px 40px;
+  margin: 0 10px 0 0;
+
+  border: 0;
+  border-radius: 50px;
+
+  box-shadow: 0 0 10px #3d82f0;
+
+  background-color: #3d82f0;
+
+  color: white;
+  font-size: 20px
+}
+
+.func>p{
+  font-size: 12px;
+  line-height: 13px;
+}
